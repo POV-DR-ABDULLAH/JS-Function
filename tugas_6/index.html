@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function cekUmur(U) {
+            if(U <= 17) {
+                alert("Maaf, kamu belum cukup umur untuk mengemudi.")
+            } else if(U <= 100000) {
+                alert("Selamat! Kamu Boleh Mengemudi.")
+            } else{
+                alert("yang anda masukkan bukan umur masa umur doang gak tau!")
+            }
+            return U;
+        }
+
+        alert(cekUmur(prompt("masukkan umar anda untk mengemudi🤨: ")))
+    </script>
+</body>
+</html>

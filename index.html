@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // // 1.contoh tidak menggunakan function
+            // let a = 8;
+            // let b = 3;
+
+            // let varA;
+            // let varB;
+
+            // let total;
+
+            // varA = a * a * a;
+            // varB = b * b * b;
+
+            // total = varA + varB;
+
+            // alert(varA)
+            // alert(varB)
+            // alert(total)
+
+        // -------------------------------------------------------------------------------------------------
+        // // 2. contoh menggunakan function
+            // a.
+                // function tambah(a, b, d) {
+                //     var total, A , B ,D;
+                //     A = a * a * a;
+                //     B = b * b * b;
+                //     D = d * d * d;
+
+                //     total = A + B + D;
+
+                //     return total;
+                // }
+
+                // alert(tambah(399, 9, 5));
+                // alert(tambah(2, 799, 9));
+                // alert(tambah(9, 9, 899));
+            // b.
+                // function tambah(a, b, d) {
+                //     var total;
+                //     total = a * a * a + b * b * b + d * d * d;
+
+                //     return total;
+                // }
+
+                // alert(tambah(399, 9, 5));
+                // alert(tambah(2, 799, 9));
+                // alert(tambah(9, 9, 899));
+            // c.
+                // function tambah(a, b, d) {
+                //     return a * a * a + b * b * b + d * d * d;
+                // }
+
+                // alert(tambah(399, 9, 5));
+                // alert(tambah(2, 799, 9));
+                // alert(tambah(9, 9, 899));
+
+        // ------------------------------------------------------------------------------------------------
+        // // .3 prameter dan argumen
+            // a.
+                // function tambah(a, b) {
+                    
+                //     return a + b;
+                // } 
+
+                // // // ada dua cara untuk memunculkan hasil
+                // // 1.
+                // var a = parseInt(prompt("masukkan nilai :"));
+                // var b = parseInt(prompt("masukkan nilai untk di tambahkan :"))
+                // var hasil = tambah(a * 5, b * 2);
+                // alert(hasil);
+
+                // // 2.
+                // var a = parseInt(prompt("masukkan nilai :"));
+                // var b = parseInt(prompt("masukkan nilai untk di tambahkan :"))
+                // var hasil = tambah(a, b);
+                // alert(hasil);
+
+                // // 3.
+                // var a = 132;
+                // var b = 868;
+                // var hasil = tambah(a, b);
+                // alert(hasil);
+
+                // // 4.
+                // var hasil = tambah(99, 923);
+                // alert(hasil);
+
+                // // 5.
+                // alert(tambah(191, 983));
+
+            // b.
+                // function tambah(a, b) {
+                    
+                //     return a + b;
+                // } 
+
+                // function kali(a, b) {
+                //     return a * b;
+                // }
+
+                // var hasil = kali(tambah(5, 2), tambah(2, 3));
+                // alert(hasil);
+
+            // c.
+                // function tambah(a, b) {
+                //     var hasil = 0;
+                //     for(let i = 0; i < arguments.length; i++) {
+                //         hasil += arguments[i];
+                //     }
+
+                //     return hasil;
+                // }
+                
+                // var coba = tambah(1, 2, 3, 4, 5, 6, 7, 8, 9)
+                // alert(coba)
+
+        // --------------------------------------------------------------------------------------
+        // // 4. Rekursif
+            // function faktorial(n) {
+            //     if(n === 0) return 1;
+            //         return n * faktorial(n - 1);   
+            // }
+            // console.log(faktorial(5))
+
+    </script>
+</body>
+</html>

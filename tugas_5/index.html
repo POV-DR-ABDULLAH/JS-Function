@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function hitungDiskon(h, d) {
+            let jumlahDiskon = (h * d) / 100;
+            let hargaSetelahDiskon = h - jumlahDiskon;
+            return hargaSetelahDiskon;
+        }
+
+        
+        alert(hitungDiskon(parseInt(prompt("masukkan uang anda untk mendapatkan diskon: ")), 20));
+
+    </script>
+</body>
+</html>
